@@ -1,6 +1,6 @@
 <?php
 	$verbo = $_SERVER["REQUEST_METHOD"];
-	$token = "123456";
+	$token = "4512348";
 	
 
 	switch ($verbo) {
@@ -22,13 +22,7 @@
 						$contador++;
 					}
 
-			/*		$datos = array(
-						"codigo"=>2015112236,
-						"nombres"=>"Pedro",
-						"apellidos"=>"Puelles",
-						"PA"=>"Ingenieria de Sistemas e Informatica"
-					); */
-
+			
 					echo json_encode(array("datos"=>$fila));	
 				}
 				else{
